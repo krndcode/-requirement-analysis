@@ -42,6 +42,31 @@ Requirement Analysis consists of several key activities that ensure software req
   Reviewing requirements with stakeholders and the development team to confirm accuracy, completeness, and feasibility. Validation ensures that the requirements truly reflect user needs and business goals.
 
 
+# Types of Requirements
+
+In Requirement Analysis, requirements are generally categorized into two types: **Functional Requirements** and **Non-functional Requirements**. Both are essential for the success of a software project.
+
+### Functional Requirements
+Functional requirements define **what the system should do**. They describe the specific features, capabilities, and interactions the system must support.
+
+**Examples for the Booking Management System:**
+- The system must allow a customer to search for available tickets.  
+- The system must allow a customer to book and cancel a ticket.  
+- The system must send an email confirmation after successful booking.  
+- The system must allow an admin to manage bookings (approve, update, delete).  
+- The system must process payments through a payment gateway.  
+
+### Non-functional Requirements
+Non-functional requirements define **how the system should perform**. They set constraints and quality attributes that the system must meet, such as performance, usability, security, and reliability.
+
+**Examples for the Booking Management System:**
+- The system should respond to a booking request within **3 seconds**.  
+- The system should be available **99.9% of the time** (high availability).  
+- The system must ensure that sensitive user data (e.g., payment details) is encrypted.  
+- The system must support **1,000 concurrent users** without performance degradation.  
+- The system interface should be mobile-friendly and accessible to users with disabilities.  
+
+
 # Use Case Diagrams
 
 Use Case Diagrams are a visual modeling tool used in Requirement Analysis to represent the interaction between **actors** (users or external systems) and the **system**. They help in understanding the functional requirements by showing what the system should do from the user’s perspective.
